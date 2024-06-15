@@ -56,7 +56,7 @@
 下圖展示了應用程序的主要界面：
 
 ### 定位服務提示
-![定位服務提示](images/screenshot1.png.png)
+![定位服務提示](images/screenshot1.png)
 
 ### 最近的捷運站顯示
 ![最近的捷運站顯示](images/screenshot2.png)
