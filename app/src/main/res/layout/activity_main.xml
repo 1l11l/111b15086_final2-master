@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最近的捷運站"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text_color"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/separator_color"
+        android:layout_below="@id/title"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/nearest_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="最近的車站會顯示在這裡"
+        android:textSize="18sp"
+        android:textColor="@color/secondary_text_color"
+        android:layout_below="@id/separator"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/refresh_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nearest_station"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="刷新"
+        android:textColor="@color/button_text_color" />
+
+    <Button
+        android:id="@+id/view_all_stations_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/refresh_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_background"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="查看全部車站"
+        android:textColor="@color/button_text_color" />
+</RelativeLayout>

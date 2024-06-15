@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#FAFAFA</color>
+    <color name="primary_text_color">#212121</color>
+    <color name="secondary_text_color">#757575</color>
+    <color name="separator_color">#BDBDBD</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_color">	#000000</color>
+</resources>
